@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title><%= title %></title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class='container text-center'>
+            <h1 class='header'>Welcome to <%= title %> </h1>
+            <h3>Features:</h3>   
+            <p>Show your browser IP address, Language and Software by <a href="/api/whoami">clicking here.</a></p>
+            <h3>Example output:</h3>
+                <code>
+                    {
+                        "ipaddress": "localhost:3000",
+                        "Language": "en-US,en;q=0.5",
+                        "Software": "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0"
+                    }
+                </code>
+            <footer>
+                <br>
+            	<p>&copy; 2016 Ken Dulin - FreeCodeCamp Back-end API project</p>
+            </footer>
+        </div> 
+    </body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "whoami",
+  "version": "1.0.0",
+  "description": "FCC Request Header Parser Microservice",
+  "author": "Ken Dulin",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.4.1",
+    "express": "^4.13.4"
+  }
+}
