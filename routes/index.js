@@ -9,8 +9,7 @@ module.exports = function(app) {
 
     app.get('/api/whoami', function(req, res) {
         var headers = req.headers;
-        console.log(headers);
-        var obj = {"ipaddress":headers['host'],
+        var obj = {"ipaddress":req.connection.remoteAddress,
         	   "Language":headers['accept-language'],
         	   "Software":headers['user-agent']
         	   };
