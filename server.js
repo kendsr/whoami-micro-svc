@@ -14,6 +14,7 @@ var app = express();
 // ================================================================
 app.use('/public', express.static(process.cwd() + '/public'));
 app.set('view engine', 'ejs');
+app.enable('trust proxy')
 
 
 // ================================================================
